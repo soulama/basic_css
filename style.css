@@ -38,6 +38,23 @@ a{
     color: orange;
 }
 
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary{
+    color: #fff;
+    border: 1px;
+    font-size: 14px;
+}
+
+.btn-primary:hover{
+    background-color: yellow;
+}
+
 header{
     height: 100vh;
     background: url('./bg.jpg') center center/cover no-repeat;
